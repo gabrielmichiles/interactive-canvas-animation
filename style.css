@@ -1,0 +1,45 @@
+body {
+  background-color: #1a1b26;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+  width: 100%;
+  border-bottom: 1px solid ghostwhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 530px;
+  padding: 1rem;
+  text-align: center;
+  color: ghostwhite;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul > li {
+  margin-bottom: 5px;
+}
+
+ol {
+  padding-left: 0;
+}
